@@ -1,9 +1,9 @@
 variable "key_name" {
-  default = "mumbairamya"
+  default = "ramyanv"
 }
 
 variable "pvt_key" {
-  default = "/root/.ssh/skey.pem"
+  default = "/root/.ssh/rkey.pem"
 }
 
 variable "us-east-zones" {
@@ -11,5 +11,5 @@ variable "us-east-zones" {
 }
 
 variable "sg-id" {
-  default = "sg-0484b4afd54545174"
+  default = "sg-0e562e3675625df04"
 }
